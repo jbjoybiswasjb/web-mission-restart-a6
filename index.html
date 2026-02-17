@@ -47,8 +47,9 @@
                 <!-- Menu -->
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a class="hover:text-[#1877F2]">Home</a></li>
-                        <li><a class="hover:text-[#1877F2]">Products</a></li>
+                        <li id="index_page_link"><a href="index.html" class="hover:text-[#1877F2]">Home</a></li>
+                        <li id="all_products_page_link"><a href="allProducts.html"
+                                class="hover:text-[#1877F2]">Products</a></li>
                         <li><a class="hover:text-[#1877F2]">About</a></li>
                         <li><a class="hover:text-[#1877F2]">Contact</a></li>
                     </ul>
@@ -70,10 +71,11 @@
                     </div>
                     <ul tabindex="-1"
                         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a class="hover:text-[#1877F2]">Home</a></li>
-                        <li><a class="hover:text-[#1877F2]">Products</a></li>
-                        <li><a class="hover:text-[#1877F2]">About</a></li>
-                        <li><a class="hover:text-[#1877F2]">Contact</a></li>
+                        <li id="index_page_link"><a href="index.html" class="hover:text-[#1877F2]">Home</a></li>
+                        <li id="all_products_page_link"><a href="allProducts.html"
+                                class="hover:text-[#1877F2]">Products</a></li>
+                        <li><a class="hover:text-[#060708]">About</a></li>
+                        <li><a class="hover:text-[#1e2227]">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -169,13 +171,13 @@
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 <div class="card bg-base-100 shadow-sm">
                     <figure class="bg-gray-100 p-5">
-                        <img class="h-96" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png"
-                            alt="Shoes" />
+                        <img class="h-96" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png" alt="Shoes" />
                     </figure>
                     <div class="card-body">
                         <div class="flex items-center justify-between">
                             <div class="inline p-2 rounded-xl text-blue-800 bg-blue-100">Men's clothing</div>
-                            <div class="justify-end inline"><i class="text-orange-500 fa-solid fa-star"></i> 3.9 (120)</div>
+                            <div class="justify-end inline"><i class="text-orange-500 fa-solid fa-star"></i> 3.9 (120)
+                            </div>
                         </div>
                         <div class="my-3 gap-2 flex flex-col">
                             <p class="">Fjallraven - foldsack No. 1 Backpack,...</p>
@@ -195,7 +197,8 @@
                     <div class="card-body">
                         <div class="flex items-center justify-between">
                             <div class="inline p-2 rounded-xl text-blue-800 bg-blue-100">Men's clothing</div>
-                            <div class="justify-end inline"><i class="text-orange-500 fa-solid fa-star"></i> 3.9 (120)</div>
+                            <div class="justify-end inline"><i class="text-orange-500 fa-solid fa-star"></i> 3.9 (120)
+                            </div>
                         </div>
                         <div class="my-3 gap-2 flex flex-col">
                             <p class="">Fjallraven - foldsack No. 1 Backpack,...</p>
@@ -209,13 +212,13 @@
                 </div>
                 <div class="card bg-base-100 shadow-sm">
                     <figure class="bg-gray-100 p-5">
-                        <img class="h-96" src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png"
-                            alt="Shoes" />
+                        <img class="h-96" src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png" alt="Shoes" />
                     </figure>
                     <div class="card-body">
                         <div class="flex items-center justify-between">
                             <div class="inline p-2 rounded-xl text-blue-800 bg-blue-100">Men's clothing</div>
-                            <div class="justify-end inline"><i class="text-orange-500 fa-solid fa-star"></i> 3.9 (120)</div>
+                            <div class="justify-end inline"><i class="text-orange-500 fa-solid fa-star"></i> 3.9 (120)
+                            </div>
                         </div>
                         <div class="my-3 gap-2 flex flex-col">
                             <p class="">Fjallraven - foldsack No. 1 Backpack,...</p>
@@ -238,7 +241,8 @@
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
             <div>
                 <h4 class="text-blue-400 shadow-sm font-bold text-xl mb-3">SwiftCart</h4>
-                <p class="text-sm">Your one-stop shop for all your fashion and lifestyle needs. Quality products, fast delivery, and excellent support.</p>
+                <p class="text-sm">Your one-stop shop for all your fashion and lifestyle needs. Quality products, fast
+                    delivery, and excellent support.</p>
             </div>
             <div>
                 <h4 class="text-gray-400 font-semibold mb-3">QUICK LINKS</h4>
@@ -267,7 +271,7 @@
                 </div>
             </div>
         </div>
-        <hr class="text-gray-600 my-8" >
+        <hr class="text-gray-600 my-8">
         <div class="flex flex-col lg:flex-row gap-5 justify-between">
             <p>&copy 2025 SwiftCart, Inc. All rights reserved.</p>
             <div>
@@ -283,7 +287,7 @@
 
     </footer>
 
-
+    <script src="/script/index.js"></script>
 </body>
 
 </html>
